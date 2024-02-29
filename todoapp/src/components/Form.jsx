@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./form.module.css";
 
 export default function Form({ alldo, setAlldo }) {
   function doList(e) {
@@ -13,7 +14,7 @@ export default function Form({ alldo, setAlldo }) {
 
   return (
     <>
-      <form action="" onSubmit={addList}>
+      <form className={styles.todoform} action="" onSubmit={addList}>
         <input value={todo} onChange={(e) => doList(e)} type="text" />
         <button type="submit">Add</button>
       </form>

@@ -15,8 +15,18 @@ export default function Form({ alldo, setAlldo }) {
   return (
     <>
       <form className={styles.todoform} action="" onSubmit={addList}>
-        <input value={todo} onChange={(e) => doList(e)} type="text" />
-        <button type="submit">Add</button>
+        <div className={styles.inputContainer}>
+          <input
+            className={styles.modernInput}
+            value={todo}
+            onChange={(e) => doList(e)}
+            type="text"
+            placeholder="Enter to do item ..."
+          />
+          <button className={styles.modernButton} type="submit">
+            Add
+          </button>
+        </div>
       </form>
     </>
   );

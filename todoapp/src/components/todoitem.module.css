@@ -13,6 +13,10 @@
   justify-content: space-between;
   align-content: center;
 }
+.itemName span {
+  cursor: pointer;
+  text-shadow: 3px 3px 3px #999999;
+}
 .line {
   border: 1px solid #e1e1e1;
 }
@@ -26,4 +30,8 @@
 }
 .deleteButton:hover {
   background-color: #ac4330;
+}
+
+.completed {
+  text-decoration: line-through;
 }

@@ -5,7 +5,12 @@ export default function ({ alldo, setAlldo }) {
     <>
       <div className={styles.list}>
         {alldo.map((item) => (
-          <Todoitem key={item} item={item} alldo={alldo} setAlldo={setAlldo} />
+          <Todoitem
+            key={item.name}
+            item={item}
+            alldo={alldo}
+            setAlldo={setAlldo}
+          />
         ))}
       </div>
     </>

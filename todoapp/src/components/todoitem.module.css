@@ -7,7 +7,23 @@
 .itemName {
   font-weight: bold;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
 }
 .line {
   border: 1px solid #e1e1e1;
+}
+.deleteButton {
+  padding: 12px 20px;
+  border: none;
+  background-color: #ff6347;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deleteButton:hover {
+  background-color: #ac4330;
 }

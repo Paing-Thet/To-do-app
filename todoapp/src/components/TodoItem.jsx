@@ -5,7 +5,6 @@ export default function Todoitem({ item, alldo, setAlldo }) {
     setAlldo(alldo.filter((todo) => todo !== item));
   }
   function handleClick(name) {
-    alert("clicked " + name);
     const NewArray = alldo.map((todo) =>
       todo.name === name ? { ...todo, done: !todo.done } : todo
     );

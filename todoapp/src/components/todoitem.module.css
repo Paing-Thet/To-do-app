@@ -14,7 +14,6 @@
   align-content: center;
 }
 .itemName span {
-  cursor: pointer;
   text-shadow: 3px 3px 3px #999999;
 }
 .line {

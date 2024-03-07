@@ -5,11 +5,14 @@
   font-weight: bold;
   text-align: center;
   width: 100%;
-  background-color: #f7ca18;
+  background-color: #27374d;
   padding: 10px;
   display: flex;
   justify-content: space-around;
+  color: #fff;
+  box-shadow: 0 -2px 3px #7dd3fc, 0 -10px 15px #7dd3fc;
 }
 
 .item {
+  text-shadow: 0 0 5px #2dd4bf, 0 0 20px #fff;
 }

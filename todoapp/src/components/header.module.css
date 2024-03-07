@@ -1,10 +1,12 @@
 .header {
-  background-color: #fde047;
+  background-color: #27374d;
   text-align: center;
   font-family: cursive;
   font-weight: 600;
+  color: #fff;
   height: 50px;
   font-size: 2em;
   padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px #7dd3fc, 0 10px 15px #7dd3fc;
+  text-shadow: 0 0 5px #2dd4bf, 0 0 20px #fff;
 }

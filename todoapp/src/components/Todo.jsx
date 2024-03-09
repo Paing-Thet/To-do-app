@@ -12,7 +12,8 @@ export default function Todo() {
     <>
       <div>
         <Form alldo={alldo} setAlldo={setAlldo} />
-        <TodoList alldo={alldo} setAlldo={setAlldo} />
+        {/* <TodoList alldo={alldo} setAlldo={setAlldo} /> */}
+        {alldo.length > 0 && <TodoList alldo={alldo} setAlldo={setAlldo} />}
         <Footer completedItem={completedItem} onListItem={onListItem} />
       </div>
     </>
